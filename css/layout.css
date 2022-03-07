@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-main, aside, footer {
+aside, footer {
     border: 2px solid black;
 }
 

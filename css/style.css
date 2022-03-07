@@ -12,6 +12,7 @@
     --texth3: 28px;
     --texth4: 18px;
     font-size: 16px;
+    --header : 2px solid var(--btn);
 }
 
 body {
@@ -83,6 +84,8 @@ nav h1 {
 header {
     padding: 32px;
     display: flex;
+    align-items: center;
+    height: 65vh;
 }
 
 /* img */
@@ -138,9 +141,52 @@ header {
     text-decoration: none;
 }
 
-.btn-karya:hover {
+.btn-karya:hover a {
     background-color: var(--btn);
 }
 /* akhir ket profil */
 
 /* ===== akhir header ===== */
+
+
+
+
+
+
+
+
+/* ===== main ===== */
+
+main {
+    margin-top: 48px;
+    height: 100vh;
+}
+
+/* header main*/
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main h1 {
+    font-size: var(--texth2);
+    text-align: center;
+    padding: calc(1em - 10px) 0;
+    border-bottom: var(--header);
+    display: inline-block;
+}
+
+
+/* cards */
+/* .cards {
+    border: 2px solid red;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+} */
+
+/* ===== akhir main ===== */
