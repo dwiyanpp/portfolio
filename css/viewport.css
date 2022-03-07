@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap');
+
+:root {
+    --background-primary: #44a6c6;
+    --background-secondary: #71bbd4;
+    --background-add: #8fcadd;
+    --text-primary: #e9f5f8;
+    --text-secondary: #cbe6ef;
+    --btn: #80c3d8;
+    --texth1: 48px;
+    --texth2: 32px;
+    --texth3: 28px;
+    --texth4: 18px;
+    font-size: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+
+    /* ===== navigasi ===== */
+
+    /* logo */
+    nav h1 {
+        font-size: var(--texth3);
+    }
+    /* akhir logo */
+
+    /* manu */
+    .menu-nav {
+        display: none;
+    }
+
+    .burger {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .fa-bars {
+        font-size: 1.2em;
+    }
+    /* akhir menu */
+
+    /* ===== akhir navigasi ===== */
+
+
+
+
+
+
+
+
+    /* ===== header ===== */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* img */
+    .image-profile {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-profile img {
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+    }
+    /* akhir img */
+
+    /* ket profil */
+    .profile {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+
+    /* ===== akhir header ===== */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+
+    /* ===== navigasi ===== */
+
+    /* logo */
+    nav h1 {
+        font-size: calc(var(--texth3) + 2px);
+    }
+    /* akhir logo */
+
+    /* manu */
+    .menu-nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu-nav ul li {
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .menu-nav ul li a {
+        font-size: 1rem;
+    }
+
+    .burger {
+        display: none;
+    }
+    /* akhir menu */
+
+    /* ===== akhir navigasi ===== */
+
+
+
+
+
+
+
+
+
+    /* ===== header ===== */
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        /* img */
+    .image-profile {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-profile img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    /* akhir img */
+
+    /* ===== akhir header ===== */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* ===== navigasi ===== */
+
+    /* logo */
+    nav h1 {
+        font-size: var(--texth2);
+    }
+    /* akhir logo */
+
+    /* manu */
+    .menu-nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu-nav ul li {
+        display: inline-block;
+        padding: 1em;
+    }
+
+    .menu-nav ul li a {
+        font-size: 1rem;
+    }
+    /* akhir menu */
+
+    /* ===== akhir navigasi ===== */
+
+
+
+
+
+
+
+
+
+
+    /* ===== header ===== */
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+        /* img */
+    .image-profile {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-profile img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    /* akhir img */
+
+    /* ===== akhir header ===== */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* ===== navigasi ===== */
+
+    /* logo */
+    nav h1 {
+        font-size: var(--texth1);
+    }
+    /* akhir logo */
+
+    /* manu */
+    .menu-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-nav ul li a {
+        font-size: 1.2rem;
+    }
+    /* akhir menu */
+
+    /* ===== akhir navigasi ===== */
+
+
+
+
+
+
+
+
+
+    /* ===== header ===== */
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        /* img */
+    .image-profile {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-profile img {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    }
+    /* akhir img */
+
+    /* ===== akhir header ===== */
+}

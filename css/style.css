@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap');
+
+:root {
+    --background-primary: #44a6c6;
+    --background-secondary: #71bbd4;
+    --background-add: #8fcadd;
+    --text-primary: #e9f5f8;
+    --text-secondary: #cbe6ef;
+    --btn: #80c3d8;
+    --texth1: 48px;
+    --texth2: 32px;
+    --texth3: 28px;
+    --texth4: 18px;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 16px;
+}
+
+/* ===== navigasi ===== */
+
+nav {
+    padding: 32px;
+    display: flex;
+}
+
+
+/* logo */
+nav h1 {
+    font-size: var(--texth1);
+    color: var(--background-secondary);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+/* akhir logo */
+
+/* menu */
+.menu-nav {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav ul li {
+    display: inline-block;
+    padding: 1.4em;
+}
+
+.menu-nav ul li a {
+    color: var(--background-primary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.menu-nav ul li:hover a {
+    border-bottom: 1px solid var(--btn);
+    color: var(--btn);
+}
+
+.menu-nav ul li a:active {
+    color: var(--text-primary);
+}
+
+.burger {
+    width: 30px;
+    height: 30px;
+}
+/* akhir menu */
+
+/* ===== akhir navigasi ===== */
+
+
+
+
+
+/* ===== header ===== */
+
+header {
+    padding: 32px;
+    display: flex;
+}
+
+/* img */
+.image-profile {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-profile img {
+    width: 280px;
+    border-radius: 50%;
+}
+/* akhir img */
+
+/* ket profil */
+.profile {
+    width: 55%;
+}
+
+.profile h1 {
+    font-size: var(--texth1);
+    padding: 12px;
+    display: inline-block;
+}
+
+.profile h2 {
+    font-size: var(--texth3);
+    padding: 12px;
+    line-height: 1.2;
+    margin-top: 12px;
+}
+
+.nama {
+    border-bottom: 2px solid rgba(113, 187, 212, .7);
+}
+
+.profile p {
+    padding: 12px;
+    line-height: calc(1em + 5px);
+}
+
+.btn-karya {
+    margin-top: 21px;
+}
+
+.btn-karya a {
+    padding: 6px 2.5em;
+    margin-left: 12px;
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-karya:hover {
+    background-color: var(--btn);
+}
+/* akhir ket profil */
+
+/* ===== akhir header ===== */
