@@ -81,6 +81,20 @@
 
 
     /* ===== akhir header ===== */
+
+    /* ===== main ===== */
+
+    main {
+        margin-top: 48px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+    }
+
+    /* ===== akhir main ===== */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -145,6 +159,17 @@
     /* akhir img */
 
     /* ===== akhir header ===== */
+
+
+
+    /* ===== main ===== */
+
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ===== akhir main ===== */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -206,6 +231,16 @@
     /* akhir img */
 
     /* ===== akhir header ===== */
+
+
+
+    /* ===== main ===== */
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* ===== akhir main ===== */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
